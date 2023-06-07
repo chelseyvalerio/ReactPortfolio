@@ -14,10 +14,11 @@
     padding: var(--pad20);
     color: #fff;
     text-shadow: 1px 1px #333;
+    text-align: center;
   }
   header {
     background-image: linear-gradient(to bottom, gray, transparent);
-    padding-bottom: 5em;
+    padding-bottom: 15em;
     display: flex;
     justify-content: space-around;
   }
@@ -51,6 +52,7 @@
     color: #fff;
   }
   h1 a:hover, h1 a:active {
+    text-align: center;
     text-decoration: none;
     cursor: pointer;
     color: #fff;

@@ -43,11 +43,11 @@ function Contact() {
     <div className="contact">
       <h2>Contact</h2>
       <ul>
-        <li>Email: cvalerio@csog.net</li>
+        <li><a href="cvalerio@csog.net" target='blank'></a>Email: cvalerio@csog.net</li>
         <li><a href="https://github.com/chelseyvalerio" target="_blank" rel="noreferrer">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/chelsey-valerio-a331b1163/" target="_blank" rel="noreferrer">LinkedIn</a></li>
       </ul>
-      <p>Wnat to Connect? Send me a Message below and I look forward to getting to know you! </p>
+      <p>Want to Connect? Send me a Message below and I look forward to getting to know you! </p>
       <form className="form" onSubmit={e => e.preventDefault()}>
         <input
           value={name}

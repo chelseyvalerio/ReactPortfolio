@@ -1,35 +1,64 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
+import Nav from "./NavBar";
 // import ContactLinks from './ContactLinks';
 import Resume from './Resume';
 
-function Main({ currentPage, isInsideHeader }) {
-    const renderPage = () => {
-        if (currentPage === 'Home') {
-          return <About />;
-        }
-        else if (currentPage === 'About') {
-            return <About />;
-          }
-        else if (currentPage === 'Projects') {
-          return <Projects />;
-        }
-        else if (currentPage === 'Contact') {
-                return <Contact />;
-        }
-        else if (currentPage === 'Resume') {
-                return <Resume />;
-        }
-        else {
-            return null;
-        }
-      };
+function Main({ currentPage }) {
+
+  const [setCurrentPage] = useState('About');
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
+  const renderPage = () => {
+    switch (currentPage.name) {
+      case 'about me':
+        return <About />;
+      case 'projects':
+        return <Projects />;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
+
+
+
+
+
+
+  // const renderPage = () => {
+    //     if (currentPage === 'Home') {
+    //       return <About />;
+    //     }
+    //     else if (currentPage === 'About') {
+    //         return <About />;
+    //       }
+    //     else if (currentPage === 'Projects') {
+    //       return <Projects />;
+    //     }
+    //     else if (currentPage === 'Contact') {
+    //             return <Contact />;
+    //     }
+    //     else if (currentPage === 'Resume') {
+    //             return <Resume />;
+    //     }
+    //     else {
+    //         return null;
+    //     }
+    //   };
 
   return (
     <div className='container'>
-        {isInsideHeader && <Contact/>}
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        {<Contact/>}
       {renderPage()}      
     </div>
   );

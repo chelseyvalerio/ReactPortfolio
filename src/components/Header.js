@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './NavBar';
-import image from '../images/EllieandI.jpg';
+import image from '../images/ellieandI.jpeg';
+import PageContent from './PageContent';
 
 
 function Header(props) {
@@ -16,7 +17,7 @@ function Header(props) {
             {props.children}
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </header>
-        {/* <Main currentPage={currentPage} isInsideHeader={true} /> */}
+        <PageContent currentPage={currentPage} isInsideHeader={true} />
         </>
     );
 }
