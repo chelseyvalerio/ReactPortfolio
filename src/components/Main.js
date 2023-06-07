@@ -8,10 +8,10 @@ import Resume from './Resume';
 
 function Main({ currentPage }) {
 
-  const [setCurrentPage] = useState('About');
+  const [currentPageName, setCurrentPageName] = useState('About');
 
   const handlePageChange = (page) => {
-    setCurrentPage(page);
+    setCurrentPageName(page);
   };
 
   const renderPage = () => {
@@ -32,6 +32,16 @@ function Main({ currentPage }) {
 
 
 
+  return (
+    <div className='container'>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        {<Contact/>}
+      {renderPage()}      
+    </div>
+  );
+}
+
+export default Main;
 
 
   // const renderPage = () => {
@@ -54,14 +64,3 @@ function Main({ currentPage }) {
     //         return null;
     //     }
     //   };
-
-  return (
-    <div className='container'>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        {<Contact/>}
-      {renderPage()}      
-    </div>
-  );
-}
-
-export default Main;
