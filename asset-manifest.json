@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.105d551d.css",
+    "main.js": "/react-portfolio/static/js/main.5194e8da.js",
+    "static/media/Me.jpg": "/react-portfolio/static/media/Me.4b9978a1b6a52f6fd926.jpg",
+    "static/media/EllieandI.jpg": "/react-portfolio/static/media/EllieandI.1a4a4e8380b78a71330c.jpg",
+    "static/media/Coming Soon.jpg": "/react-portfolio/static/media/Coming Soon.2f67198f10da47bf1fcb.jpg",
+    "static/media/wallstreet-curiosity-watchlist.png": "/react-portfolio/static/media/wallstreet-curiosity-watchlist.beb023a771aa08876033.png",
+    "static/media/chicken serach.jpg": "/react-portfolio/static/media/chicken serach.8147850a547cfc1f8ab9.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.105d551d.css.map": "/react-portfolio/static/css/main.105d551d.css.map",
+    "main.5194e8da.js.map": "/react-portfolio/static/js/main.5194e8da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.105d551d.css",
+    "static/js/main.5194e8da.js"
+  ]
+}
