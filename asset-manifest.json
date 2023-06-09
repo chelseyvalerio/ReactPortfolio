@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.cb8826ac.css",
-    "main.js": "/ReactPortfolio/static/js/main.65b9f3d6.js",
+    "main.css": "/ReactPortfolio/static/css/main.3fcb341e.css",
+    "main.js": "/ReactPortfolio/static/js/main.f5520988.js",
     "static/media/Me.jpg": "/ReactPortfolio/static/media/Me.4b9978a1b6a52f6fd926.jpg",
+    "static/media/myboardgameshelf.png": "/ReactPortfolio/static/media/myboardgameshelf.b0d3aeac671981678243.png",
     "static/media/ellieandI.jpeg": "/ReactPortfolio/static/media/ellieandI.3b491ac987f3ae6d340f.jpeg",
-    "static/media/Coming Soon.jpg": "/ReactPortfolio/static/media/Coming Soon.2f67198f10da47bf1fcb.jpg",
     "static/media/wallstreet-curiosity-watchlist.png": "/ReactPortfolio/static/media/wallstreet-curiosity-watchlist.beb023a771aa08876033.png",
     "static/media/chicken serach.jpg": "/ReactPortfolio/static/media/chicken serach.8147850a547cfc1f8ab9.jpg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.cb8826ac.css.map": "/ReactPortfolio/static/css/main.cb8826ac.css.map",
-    "main.65b9f3d6.js.map": "/ReactPortfolio/static/js/main.65b9f3d6.js.map"
+    "main.3fcb341e.css.map": "/ReactPortfolio/static/css/main.3fcb341e.css.map",
+    "main.f5520988.js.map": "/ReactPortfolio/static/js/main.f5520988.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb8826ac.css",
-    "static/js/main.65b9f3d6.js"
+    "static/css/main.3fcb341e.css",
+    "static/js/main.f5520988.js"
   ]
 }
