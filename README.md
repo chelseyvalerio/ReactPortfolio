@@ -49,26 +49,23 @@ The following animation shows a little bit about me and what to expect when view
 
 ### About Me
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![About Me/Home Page](./Assets/home.about.png)
 
 ### Projects
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![Recent Projects Page](./Assets/projects.png)
 
-For each project that is featured in your portfolio, include the following:
+To view each project's:
 
-- An image of the deployed application (either a short animated GIF or screenshot)
-
-- The title of the project
-
-- A link to the deployed application
-
-- A link to the corresponding GitHub repository
+1. Repo link: click on the Repository Link Button
+2. Deployed Application: click on the project image
 
 ### Contact
 
 Within the app, you can contact me through my LinkedIn profile, complete to contact form, or you can also email me at cvalerio@csog.net.
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![resume page](./Assets/resume.png)
+
+![contact me page](./Assets/contact.png)
 
 If you have any questions regarding the apps funcitonality specifically, please don't hesitate to email me at cvalerio@csog.net

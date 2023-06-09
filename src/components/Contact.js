@@ -41,7 +41,7 @@ function Contact() {
 
   return (
     <div className="contact">
-      <h2>Contact</h2>
+      <h2 id='contact'>Contact</h2>
       <ul>
         <li><a href="cvalerio@csog.net" target='blank'></a>Email: cvalerio@csog.net</li>
         <li><a href="https://github.com/chelseyvalerio" target="_blank" rel="noreferrer">GitHub</a></li>

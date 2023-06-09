@@ -76,6 +76,10 @@
     border: solid 1px #ccc;
     border-radius: 5px;
   }
+#contact {
+  text-align: center;
+}
+
   h1,
   h2 {
     text-align: center;
