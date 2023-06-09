@@ -4,9 +4,9 @@ export default function Resume() {
 
     return (
         <div>
-            <h2>Career Thus Far</h2>
+            <h2>Experience</h2>
             <p>
-        View my <a href="https://www.linkedin.com/in/chelsey-valerio-a331b1163/">Work to Date</a>
+        View my <a href="https://www.linkedin.com/in/chelsey-valerio-a331b1163/"> Career Experience to Date</a>
         </p>
 
         </div>

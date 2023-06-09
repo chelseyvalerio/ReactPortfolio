@@ -13,9 +13,10 @@ function About() {
                 <div className="col-md">
                     <h3 className="viewTitle" id="aboutTitle">ABOUT</h3>
                     <div className="row align-self-center bioText">
-                        <p className="bio">I am a Marketing Manager for a large orthopaedic group in southern Colorado. I love what I do and am excited to continue developing my value and education. Beginning to utilize new web development skills will be one of those values that I can continue to gain experience in and help the growth of my current company. </p>
-                        <p className="bio"><span className="skillHeader">Below are just some of the skills I can bring to the table:</span>
-                        </p>
+                        <p className="bio" id="bio">I am a Marketing Manager for a large orthopaedic group in southern Colorado. I love what I do and am excited to continue developing my value and education. Beginning to utilize new web development skills will be one of those values that I can continue to gain experience in and help the growth of my current company. </p>
+
+                        <h4 className="bio"><span className="skillHeader">Below are just some of the skills I can bring to the table:</span>
+                        </h4>
                             <ul className=" skillList text-center">
                                 <li className="skill">Adobe Creative Suite</li>
                                 <li className="skill">Strategy and Business Development</li>
@@ -34,7 +35,7 @@ function About() {
                                 <li className="skill">Project Management</li>
                             </ul>
                         
-                        <p className="bio">I look forward to connecting with you!</p>
+                        <h4 className="bio">I look forward to connecting with you!</h4>
                     </div>
                 </div>
             </div>

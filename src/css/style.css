@@ -1,13 +1,14 @@
 :root {
     --dark: #13293d;
     --light: #fff;
-    --navlink-color: rgb(0, 76, 255);
+    --navlink-color: rgb(76, 193, 222) (0, 76, 255);
     --pad20: 20px;
+    width: 100%;
   }
   html {
     scroll-behavior: smooth;
   }
-  header,
+  
   footer {
     width: 100%;
     height: auto;
@@ -17,12 +18,13 @@
     text-align: center;
   }
   header {
-    background-image: linear-gradient(to bottom, gray, transparent);
+    width: 100%;
+    background-image: linear-gradient(to bottom, #13293d , transparent);
     padding-bottom: 15em;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    margin: 2em 5em;
+    color: rgb(228, 220, 220);
+    /* margin: 2em 5em; */
   }
   .intro p {
     padding: var(--pad20) 0;
@@ -79,13 +81,23 @@
     text-align: center;
     display: block;
     font-size: 4em;
+    color: rgb(228, 220, 220);
+  }
+  #aboutTitle {
+    text-align: center;
+    padding-top: 2em;
   }
   img {
     display: block;
    margin: auto;
+   padding-top: 2em;
   }
-  .bio {
-    max-width: 300px;
+  h4 {
+    text-align: center;
+  }
+  
+  #bio {
+    /* max-width: 300px; */
     border-radius: 10px;
     max-height: 350px;
   }
@@ -101,11 +113,12 @@
     margin: 15px 0;
   }
   .container {
-    display: flex;
+    display: flexbox ;
+    /* text-align: center; */
     flex-wrap: wrap;
-    align-items: flex-start;
-    margin-bottom: 2em;
-    color: #333;
+    align-items: flex-start ;
+    margin-bottom: 10em;
+    color: rgb(228, 220, 220);
   }
   .projects {
     display: flex;
@@ -122,7 +135,7 @@
     text-align: left;
   }
   p {
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     line-height: 1.25;
   }
@@ -164,11 +177,14 @@
     outline: none;
   }
   a.button:hover {
-        box-shadow: 1px 1px 4px #666;
+        box-shadow: 1px 1px 4px #e8dddd;
   }
   #featured {
     width: 95%;
   }
+  /* p {
+    text-align: center;
+  } */
   #featured img {
     max-height: 400px;
     max-width: 650px;
@@ -197,7 +213,7 @@
     margin: 0;
   }
   form {
-    color: #8597a3;
+    color: rgb(228, 220, 220);
     position: relative;
     background-color: #fafafe;
     border-radius: 10px;
