@@ -1,34 +1,37 @@
 import React, { useState } from "react";
-import Header from "../src/components/Header";
 import Nav from "../src/components/NavBar";
 import Page from "../src/components/Main";
 import Footer from "../src/components/Footer";
+import "./css/style.css";
+import "./App.css";
+
 
 function App() {
-  const [pages] = useState([
-    {
-      name: "About Me"
-    },
-    { name: "Works" },
-    { name: "Let's Connect" },
-    {
-      name: "Resume"
-    }
-  ]);
+  // const [pages] = useState([
+  //   {
+  //     name: "About Me"
+  //   },
+  //   { name: "Works" },
+  //   { name: "Let's Connect" },
+  //   {
+  //     name: "Resume"
+  //   }
+  // ]);
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  // const [currentPage, setCurrentPage] = useState(pages[0].name);
 
   return (
     <div>
-      <Header>
+      {/* <Header>
         <Nav
           pages={pages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
         ></Nav>
-      </Header>
+      </Header> */}
       <main>
-        <Page currentPage={currentPage}></Page>
+        <Page 
+        ></Page>
       </main>
       <Footer />
     </div>

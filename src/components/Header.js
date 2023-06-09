@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Nav from './NavBar';
-import image from '../images/ellieandI.jpeg';
 import PageContent from './PageContent';
+import image from '../images/ellieandI.jpeg';
+
 
 
 function Header(props) {

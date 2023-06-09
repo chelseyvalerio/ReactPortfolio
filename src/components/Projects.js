@@ -32,3 +32,33 @@ function Projects() {
 }
 
 export default Projects;
+
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+// import RepoCard from './RepoCard';
+
+// function RepositoryPage() {
+//   const [repositories, setRepositories] = useState([]);
+
+//   useEffect(() => {
+//     // Fetch repositories from the GitHub API
+//     axios
+//       .get('https://api.github.com/users/{your_github_username}/repos')
+//       .then((response) => {
+//         setRepositories(response.data);
+//       })
+//       .catch((error) => {
+//         console.log(error);
+//       });
+//   }, []);
+
+//   return (
+//     <div>
+//       {repositories.map((repository) => (
+//         <RepoCard key={repository.id} repository={repository} />
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default RepositoryPage;

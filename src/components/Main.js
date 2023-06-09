@@ -3,26 +3,30 @@ import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 import Nav from "./NavBar";
+import Header from './Header';
+import image from '../images/ellieandI.jpeg';
+
 // import ContactLinks from './ContactLinks';
 import Resume from './Resume';
 
-function Main({ currentPage }) {
+function Main() {
 
-  const [currentPageName, setCurrentPageName] = useState('About');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const handlePageChange = (page) => {
-    setCurrentPageName(page);
+    setCurrentPage(page);
+    console.log("current",currentPage,page)
   };
 
   const renderPage = () => {
-    switch (currentPage.name) {
-      case 'about me':
+    switch (currentPage) {
+      case 'About':
         return <About />;
-      case 'projects':
+      case 'Projects':
         return <Projects />;
-      case 'contact':
+      case 'Contact':
         return <Contact />;
-      case 'resume':
+      case 'Resume':
         return <Resume />;
       default:
         return <About />;
@@ -34,8 +38,14 @@ function Main({ currentPage }) {
 
   return (
     <div className='container'>
+        <header className="header">
+            <h1><a href="/react-portfolio">My Portfolio</a></h1>
+            <img src={image} alt="elliebear and I"></img>
+            
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        {<Contact/>}
+      </header>
+        {/* {<Contact/>} */}
+     
       {renderPage()}      
     </div>
   );
